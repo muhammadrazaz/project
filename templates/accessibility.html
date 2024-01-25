@@ -1,0 +1,168 @@
+{%extends "base.html"%}
+
+{%block content%}
+
+    <!-- ========================
+       page title 
+    =========================== -->
+    <section class="page-title-layout1 page-title-light text-center bg-overlay bg-parallax">
+      <div class="bg-img"><img src="{{ url_for('static',filename='assets/images/page-titles/13.jpg') }}" alt="background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-6 offset-xl-3">
+            <h1 class="pagetitle-heading">Advancing Healthcare Accessibility</h1>
+            <p class="pagetitle-desc">At IHD Life, we understand that healthcare should not be confined by geographical or economic boundaries. Our commitment to healthcare extends far beyond the walls of our facilities. We are dedicated to bridging the gap in healthcare accessibility, ensuring that quality care reaches even the most remote corners of the world. Explore how we are turning our commitment into action, one initiative at a time.
+
+            </p>
+            <nav>
+              <ol class="breadcrumb d-flex justify-content-center mt-80 mb-0">
+                <li class="breadcrumb-item">
+                  <a href="index.html">Home</a>
+                </li>
+              
+                <li class="breadcrumb-item active" aria-current="page">Accessibility</li>
+              </ol>
+            </nav>
+          </div><!-- /.col-xl-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+      <a class="home-nav" href="index.html">
+        <i class="icon-home"></i>
+      </a>
+      <div class="curve-top-shape">
+        <svg class="curve-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+          <path class="curve-path" d="M1000,4.3V0H0v4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z"></path>
+        </svg>
+      </div><!-- /.curve -->
+    </section><!-- /.page-title -->
+
+    <!-- ========================
+        Services Layout 2
+    =========================== -->
+    <section class="services-layout2">
+      <div class="container">
+       
+        <div id="filtered-items" class="row">
+          <!-- service item #1 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pandemic">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ url_for('static',filename='assets/images/services/1.jpg') }}" alt="service">
+                <div class="service-overlay">
+                  <a class="popup-gallery-item" href="{{ url_for('static',filename='assets/images/services/1.jpg') }}"><i class="plus-icon">+</i></a>
+                </div>
+              </div><!-- /.service-img -->
+              <div class="service-body">
+               
+                <h4 class="service-title">
+                  Global Distribution
+                </h4>
+                <p class="service-desc">Our extensive distribution network is the lifeline of our accessibility efforts. It ensures that our products are available where they are needed most, from bustling urban centers to remote villages.
+                </p>
+                <br>
+              </div><!-- /.service-body -->
+            </div><!-- /.service-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- service item #2 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-vaccine">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ url_for('static',filename='assets/images/services/2.jpg') }}" alt="service">
+                <div class="service-overlay">
+                  <a class="popup-gallery-item" href="{{ url_for('static',filename='assets/images/services/2.jpg') }}"><i class="plus-icon">+</i></a>
+                </div>
+              </div><!-- /.service-img -->
+              <div class="service-body">
+                
+                <h4 class="service-title">
+                  Telehealth Solutions
+                </h4>
+                <p class="service-desc">: We embrace telehealth technologies to connect patients with healthcare providers, irrespective of geographic barriers. Telehealth extends our reach, making quality care just a video call away.
+                </p>
+                <br>
+              </div><!-- /.service-body -->
+            </div><!-- /.service-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- service item #3 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pediatric">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ url_for('static',filename='assets/images/services/3.jpg') }}" alt="service">
+                <div class="service-overlay">
+                  <a class="popup-gallery-item" href="{{ url_for('static',filename='assets/images/services/3.jpg') }}"><i class="plus-icon">+</i></a>
+                </div>
+              </div><!-- /.service-img -->
+              <div class="service-body">
+                
+                <h4 class="service-title">
+                  Community Outreach
+                </h4>
+                <p class="service-desc">Our initiatives reach underserved communities, providing healthcare education and services. We understand that healthcare begins with awareness, and we are committed to empowering individuals with knowledge.
+                </p>
+              </div><!-- /.service-body -->
+            </div><!-- /.service-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- service item #4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-drug">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ url_for('static',filename='assets/images/services/4.jpg') }}" alt="service">
+                <div class="service-overlay">
+                  <a class="popup-gallery-item" href="{{ url_for('static',filename='assets/images/services/4.jpg') }}"><i class="plus-icon">+</i></a>
+                </div>
+              </div><!-- /.service-img -->
+              <div class="service-body">
+                
+                <h4 class="service-title">
+                  Mobile Clinics
+                </h4>
+                <p class="service-desc">In regions with limited access to healthcare facilities, we operate mobile clinics. These clinics are a beacon of hope, delivering essential healthcare services to those who need it most.
+                </p>
+              </div><!-- /.service-body -->
+            </div><!-- /.service-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- service item #5 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-surgery">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ url_for('static',filename='assets/images/services/5.jpg') }}" alt="service">
+                <div class="service-overlay">
+                  <a class="popup-gallery-item" href="{{ url_for('static',filename='assets/images/services/5.jpg') }}"><i class="plus-icon">+</i></a>
+                </div>
+              </div><!-- /.service-img -->
+              <div class="service-body">
+               
+                <h4 class="service-title">
+                Emergency Response
+                </h4>
+                <p class="service-desc">In times of crisis, IHD Life stands as a reliable partner. Our rapid response teams ensure that essential healthcare supplies reach affected areas promptly, saving lives and aiding recovery.
+                </p>
+              </div><!-- /.service-body -->
+            </div><!-- /.service-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- service item #6 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-medical">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ url_for('static',filename='assets/images/services/6.jpg') }}" alt="service">
+                <div class="service-overlay">
+                  <a class="popup-gallery-item" href="{{ url_for('static',filename='assets/images/services/6.jpg') }}"><i class="plus-icon">+</i></a>
+                </div>
+              </div><!-- /.service-img -->
+              <div class="service-body">
+                
+                <h4 class="service-title">
+                  <a href="research-single.html">Education and Training</a>
+                </h4>
+                <p class="service-desc">We empower local healthcare professionals with education and training programs. Strengthening the capabilities of healthcare providers results in better care for communities.
+                </p>
+              </div><!-- /.service-body -->
+            </div><!-- /.service-item -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        
+      </div><!-- /.container -->
+    </section><!-- /.Services Layout 2 -->
+
+    {%endblock content%}
+   

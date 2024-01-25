@@ -1,0 +1,458 @@
+{%extends "base.html"%}
+{%block content%}
+
+    <!-- ============================
+        Slider
+    ============================== -->
+    <section class="slider">
+      <div class="slick-carousel carousel-dots-light m-slides-0"
+        data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 700,"fade": true,"cssEase": "linear"}'>
+        <div class="slide-item bg-overlay align-v-h">
+          <div class="bg-img"><img src="{{ url_for('static',filename='assets/images/sliders/5.jpg') }}" alt="slide img"></div>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 col-xl-8">
+                <div class="slide-content">
+                  <!-- <span class="slide-subtitle highlighted">Harnessing Our Medical Expertise To Build Best Test
+                    Offering!</span> -->
+                  <h2 class="slide-title"> Innovative Health Partnerships</h2>
+                  <p class="slide-desc">Cultivating Collaborative Alliances with Esteemed Drug Manufacturers for Innovative Solutions</p>
+                    
+                </div><!-- /.slide-content -->
+              </div><!-- /.col-xl-8 -->
+              <div class="col-12 col-xl-4">
+                <ul class="features-list-layout5 d-none d-xl-flex flex-wrap list-unstyled p-0 mb-0">
+                  <li class="feature-item">
+                    <div class="feature-item-inner hexagon-clippath">
+                      <div class="feature-icon"><i class="icon-flask2"></i></div>
+                      <h4 class="feature-title mb-0">Strict Quality Practices</h4>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <div class="feature-item-inner hexagon-clippath">
+                      <div class="feature-icon"><i class="icon-bunsen-burner"></i></div>
+                      <h4 class="feature-title mb-0">New Advanced Instruments</h4>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <div class="feature-item-inner hexagon-clippath">
+                      <div class="feature-icon"><i class="icon-measuring-jug"></i></div>
+                      <h4 class="feature-title mb-0">Customized Lab Solutions</h4>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <div class="feature-item-inner hexagon-clippath">
+                      <div class="feature-icon"><i class="icon-beaker"></i></div>
+                      <h4 class="feature-title mb-0">Environmental Testing</h4>
+                    </div>
+                  </li>
+                </ul><!-- /.features-list-layout5 -->
+              </div><!-- /.col-xl-4 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.slide-item -->
+        <div class="slide-item bg-overlay align-v-h">
+          <div class="bg-img"><img src="{{ url_for('static',filename='assets/images/sliders/6.jpg') }}" alt="slide img"></div>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 col-xl-8">
+                <div class="slide-content">
+                  <!-- <span class="slide-subtitle highlighted">Harnessing Our Medical Expertise To Build Best Test
+                    Offering!</span> -->
+                  <h2 class="slide-title"> Quality Healthcare Redefined</h2>
+                  <p class="slide-desc"> Profound Insights, Groundbreaking Products, and Unmatched Services for Universal Affordability
+                  </p>
+                  <div class="d-flex flex-wrap align-items-center">
+                    <!-- <a href="tests-services.html" class="btn btn-white btn-xl mr-30">
+                      <span>Tests and Services</span>
+                      <i class="icon-arrow-right"></i>
+                    </a> -->
+                    <!-- <a href="tests-book-visit.html" class="btn btn-primary">
+                      <span>Book a Home Visit</span>
+                    </a> -->
+                  </div>
+                </div><!-- /.slide-content -->
+              </div><!-- /.col-xl-7 -->
+              <div class="col-12 col-xl-4">
+                <ul class="features-list-layout5 d-none d-xl-flex flex-wrap list-unstyled p-0 mb-0">
+                  <li class="feature-item">
+                    <div class="feature-item-inner hexagon-clippath">
+                      <div class="feature-icon"><i class="icon-measuring-jug"></i></div>
+                      <h4 class="feature-title mb-0">Customized Lab Solutions</h4>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <div class="feature-item-inner hexagon-clippath">
+                      <div class="feature-icon"><i class="icon-flask2"></i></div>
+                      <h4 class="feature-title mb-0">Strict Quality Practices</h4>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <div class="feature-item-inner hexagon-clippath">
+                      <div class="feature-icon"><i class="icon-beaker"></i></div>
+                      <h4 class="feature-title mb-0">Environmental Testing</h4>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <div class="feature-item-inner hexagon-clippath">
+                      <div class="feature-icon"><i class="icon-bunsen-burner"></i></div>
+                      <h4 class="feature-title mb-0">New Advanced Instruments</h4>
+                    </div>
+                  </li>
+                </ul><!-- /.features-list-layout5 -->
+              </div><!-- /.col-xl-4 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.slide-item -->
+      </div><!-- /.carousel -->
+    </section><!-- /.slider -->
+
+    <!-- ========================
+      About Layout 4
+    =========================== -->
+    <section class="about-layout4 pt-130 pb-130">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+            <div class="about-img">
+              <img src="{{ url_for('static',filename='assets/images/about/6.jpg') }}" alt="about" class="rounded-4">
+            </div>
+          </div><!-- /.col-xl-7 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5 offset-xl-1">
+            <div class="about-text pt-50">
+              <div class="heading-layout2">
+                <!-- <h2 class="heading-subtitle color-primary">Providing High Quality Test Services For Your Health!</h2> -->
+                <h3 class="heading-title mb-30">Welcome to IHD Life - Pioneering Healthcare Excellence</h3>
+                <!-- <p class="heading-desc color-secondary fw-bold mb-30">With a belief that knowledge is power, we connect
+                  directly with patients to deliver their
+                  results so they have valuable health information when they need it most, we care about our people and
+                  are committed to excellence in the work.
+                </p> -->
+                <p class="heading-desc mb-40">At IHD Life, we are more than a pharmaceutical company; we are healthcare visionaries on a mission to redefine the very essence of quality care. Nestled in the heart of the United States, we have cultivated strategic partnerships with esteemed drug manufacturers, enabling us to craft and distribute a comprehensive range of generic medications. Our unwavering commitment goes beyond providing healthcare solutions; it's about delivering profound insights, groundbreaking products, and unmatched services that not only enhance accessibility but also make quality healthcare more affordable for all.
+
+                </p>
+              </div>
+              <!-- if want auther uncomment this -->
+              <!-- <div class="d-flex flex-wrap mb-40">
+                <a href="tests-book-visit.html" class="btn btn-primary btn-featured mr-30">
+                  <i class="icon-arrow-right"></i> <span>Book a Lab Visit</span>
+                </a>
+                <div class="author-meta d-flex flex-wrap align-items-center">
+                  <div class="col-auto author-img">
+                    <img src="{{ url_for('static',filename='assets/images/testimonials/thumbs/7.jpg') }}" alt="thumb" class="rounded-circle">
+                  </div>
+                  <div class="col-auto">
+                    <h4 class="author-title">Maria Kriss</h4>
+                    <span class="author-desc">Our Founder</span>
+                  </div>
+                </div>
+              </div> -->
+            </div><!-- /.about-text -->
+          </div><!-- /.col-xl-5 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.About Layout 4 -->
+
+    <!-- ======================
+     fancybox Layout 4 
+    ========================= -->
+    <section class="fancybox-layout4 fancybox-carousel bg-overlay bg-overlay-secondary-gradient pt-130  ">
+      <div class="bg-img"><img src="{{ url_for('static',filename='assets/images/backgrounds/1.jpg') }}" alt="backgrounds"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class=" color-primary">Our Unwavering Commitments</h2>
+          </div><!-- /.col-12 -->
+        </div><!-- /.row -->
+        
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="slick-carousel carousel-container"
+              data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "infinite": false, "autoplay":true, "arrows": false ,"dots": true, "responsive": [ {"breakpoint": 1400, "settings": {"slidesToShow": 4}},{"breakpoint": 1200, "settings": {"slidesToShow": 3}},{"breakpoint": 1100, "settings": {"slidesToShow": 3}},{"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+              <!-- fancybox item #1 -->
+              <div class="fancybox-item h-100">
+                <div class="fancybox-icon">
+                  <i class="icon-flask6"></i>
+                </div><!-- /.fancybox-icon -->
+                <div class="fancybox-body">
+                  <h4 class="fancybox-title">Excellence in Quality</h4>
+                  <p class="fancybox-desc">Quality is not just a promise; it's our way of life. Every medication we produce undergoes relentless scrutiny through rigorous quality control processes, conforming to the most stringent industry standards. We spare no effort in ensuring that each product that bears the IHD Life name is a testament to excellence.
+                    <br>
+                    <br>
+                    
+                  </p>
+                  
+                </div><!-- /.fancybox-body -->
+              </div><!-- /.fancybox-item -->
+              <!-- fancybox item #2 -->
+              <div class="fancybox-item">
+                <div class="fancybox-icon">
+                  <i class="icon-magnet"></i>
+                </div><!-- /.fancybox-icon -->
+                <div class="fancybox-body">
+                  <h4 class="fancybox-title">Affordable Healthcare Solutions</h4>
+                  <p class="fancybox-desc">We firmly believe that healthcare should be accessible to every individual, irrespective of their economic background. Our line of generic medications offers an unrivaled combination of quality and affordability, ensuring that individuals worldwide can access the care they rightfully deserve.
+                    <br>
+                    <br>
+                  </p>
+
+                  
+                </div><!-- /.fancybox-body -->
+              </div><!-- /.fancybox-item -->
+              <!-- fancybox item #3 -->
+              <div class="fancybox-item">
+                <div class="fancybox-icon">
+                  <i class="icon-jar"></i>
+                </div><!-- /.fancybox-icon -->
+                <div class="fancybox-body">
+                  <h4 class="fancybox-title">Global Influence</h4>
+                  <p class="fancybox-desc">IHD Life is more than a pharmaceutical entity; it's a global movement dedicated to elevating healthcare standards worldwide. We collaborate seamlessly with governments, wholesale distributors, healthcare providers, pharmacies, and an extensive network of partners, transcending borders and bringing about a profound impact on healthcare accessibility and affordability.
+                  </p>
+                
+                </div><!-- /.fancybox-body -->
+              </div><!-- /.fancybox-item -->
+              <!-- fancybox item #4 -->
+              <div class="fancybox-item">
+                <div class="fancybox-icon">
+                  <i class="icon-florence-flask"></i>
+                </div><!-- /.fancybox-icon -->
+                <div class="fancybox-body">
+                  <h4 class="fancybox-title">Innovation Beyond Boundaries</h4>
+                  <p class="fancybox-desc">Our commitment to innovation is unwavering. We stand on the cutting edge, pioneering new solutions and adapting to the ever-evolving healthcare landscape to meet the diverse and dynamic needs of our patients and partners.
+                    <br>
+                    <br>
+                    <br>
+                  </p>
+                 
+                </div><!-- /.fancybox-body -->
+              </div><!-- /.fancybox-item -->
+
+              
+              
+              
+            </div><!-- /.carousel -->
+          </div><!-- /.col-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.fancybox-layout4 -->
+
+       <!-- ======================
+       Call to Action
+      ========================= -->
+      <section class="cta-layout2 bg-overlay bg-overlay-primary-gradient has-pattern-bg pt-50">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-12 col-xl-7">
+              <div class="cta-block d-flex align-items-start mt-20 mb-20">
+                <div class="cta-icon"><i class="icon-molecule2"></i></div>
+                <div>
+                  <h4 class="cta-title color-white">Pharmaceutical Distribution: Delivering Quality Healthcare Worldwide                  </h4>
+                  <p class="cta-desc color-gray">At IHD Life, we ensure healthcare excellence by seamlessly distributing quality pharmaceutical products worldwide. From manufacturing to delivery, we prioritize reaching those in need.
+                  </p>
+                </div>
+              </div>
+            </div><!-- /.col-xl-7 -->
+          
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+        <div class="curve-top-shape d-none d-xl-block">
+          <svg class="curve-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="curve-path" d="M1000,4.3V0H0v4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z"></path>
+          </svg>
+        </div><!-- /.curve -->
+      </section><!-- /.cta-layout2 -->
+
+          <!-- ======================
+       Call to Action
+      ========================= -->
+    <section class="cta-layout3 pt-0 pb-40 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="cta-banner d-flex">
+              <div class="cta-icon"><i class="icon-computer"></i></div>
+              <div>
+                <h4 class="cta-title">Our Distribution Network                </h4>
+                <p class="cta-desc">Our global distribution network ensures safe storage and transport of pharmaceuticals worldwide.
+                </p>
+                
+              </div>
+            </div><!-- /.cta-banner -->
+          </div><!-- /.col-md-6 -->
+          <div class="col-sm-12 col-md-6">
+            <div class="cta-banner d-flex">
+              <div class="cta-icon"><i class="icon-florence-flask"></i></div>
+              <div>
+                <h4 class="cta-title">Quality Assurance</h4>
+                <p class="cta-desc">We ensure pharmaceutical integrity with top industry standards and efficacy in distribution</p>
+                
+              </div>
+            </div><!-- /.cta-banner -->
+          </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+       =
+      </div><!-- /.container -->
+    </section><!-- /.cta-layout3 -->
+
+
+
+
+    <!-- ========================
+        Services Layout 5
+    =========================== -->
+    <section class="services-layout5 services-carousel pt-130">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-6 offset-xl-3">
+            <div class="heading-layout2 text-center mb-50">
+              <!-- <h2 class="heading-subtitle color-primary">Find the Right Test for Your Needs!</h2> -->
+              <h3 class="heading-title">Explore Our Comprehensive Offerings</h3>
+            </div>
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-12">
+            <div class="slick-carousel"
+              data-slick='{"slidesToShow": 3, "slidesToScroll": 3, "arrows": false, "dots": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+              <!-- service item #1 -->
+              <div class="service-item">
+                <div class="service-body">
+                  <div class="service-icon">
+                    <i class="icon-microscope"></i>
+                  </div>
+                  <h4 class="service-title">
+                    <a href="tests-single-test.html">Generic Medications</a>
+                  </h4>
+                  <p class="service-desc" >Our extensive portfolio spans a diverse array of generic medications, meticulously crafted to address a wide spectrum of therapeutic areas. From cardiovascular health to pain management, mental health, chronic conditions, infectious diseases, women's health, and specialized pediatric care, our products are a testament to our commitment to comprehensive healthcare solutions.
+                  </p>
+                  
+                </div><!-- /.service-body -->
+                <div class="service-shape">
+                  <span class="hexagon-clippath"></span><span class="hexagon-clippath2"></span>
+                </div>
+              </div><!-- /.service-item -->
+              <!-- service item #2 -->
+              <div class="service-item">
+                <div class="service-body">
+                  <div class="service-icon">
+                    <i class="icon-dna-structure"></i>
+                  </div>
+                  <h4 class="service-title">
+                    <a href="tests-single-test.html">Strategic Collaborations</a>
+                  </h4>
+                  <p class="service-desc" >Immerse yourself in our strategic collaborations with renowned drug manufacturers, esteemed healthcare institutions, forward-thinking governments, and visionary organizations. These partnerships underscore our dedication to delivering healthcare excellence on a global scale.
+                    
+                  </p>
+                  
+                </div><!-- /.service-body -->
+                <div class="service-shape">
+                  <span class="hexagon-clippath"></span><span class="hexagon-clippath2"></span>
+                </div>
+              </div><!-- /.service-item -->
+              <!-- service item #3 -->
+              <div class="service-item">
+                <div class="service-body">
+                  <div class="service-icon">
+                    <i class="icon-florence-flask"></i>
+                  </div>
+                  <h4 class="service-title">
+                    <a href="tests-single-test.html">Global Accessibility</a>
+                  </h4>
+                  <p class="service-desc" >Our mission transcends geographical boundaries. Explore how we bridge the gap in healthcare accessibility, employing innovative strategies to ensure that quality care touches every corner of the world, especially those underserved and overlooked.
+
+                    <!-- <br>
+                    <br>
+                    <br>
+                    <br> -->
+                  </p>
+                 
+                </div><!-- /.service-body -->
+                <div class="service-shape">
+                  <span class="hexagon-clippath"></span><span class="hexagon-clippath2"></span>
+                </div>
+              </div><!-- /.service-item -->
+              <!-- service item #4 -->
+              
+             
+              
+            </div><!-- /.carousel -->
+          </div><!-- /.col-12 -->
+        </div><!-- /.row -->
+        <div class="row align-items-center">
+          <div class="col-12 col-xl-6 offset-xl-3 px-xl-5 text-center">
+            <p class="heading-subtitle fw-bold mt-15 mb-0">IHD Life is not just a name; it's a promise of healthcare transformation. Explore our website and discover how we are shaping the future of healthcare, one innovation at a time.
+            </p>
+            
+          </div><!-- /.col-xl-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.Services Layout 5 -->
+
+    <!-- ========================
+     Banner Layout 1
+    =========================== -->
+    <section class="banner-layout1 bg-overlay bg-overlay-secondary-gradient bg-parallax pt-130 pb-0">
+      <div class="bg-img"><img src="{{ url_for('static',filename='assets/images/backgrounds/1.jpg') }}" alt="backgrounds"></div>
+      <div class="container pb-30">
+        <div class="row">
+          <div class="col-12 col-xl-6">
+            <div class="heading-layout2 heading-light mb-60">
+
+              <h3 class="heading-title">Corporate Social Responsibility</h3>
+            </div><!-- /.heading-layout2 -->
+          </div><!-- /.col-xl-6 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-10 col-lg-7 col-lg-6 col-xl-6">
+            <div class="banner-img">
+              <img src="{{ url_for('static',filename='assets/images/banners/1.jpg') }}" alt="banner" class="rounded-4 w-100">
+              <div class="promo-text">
+                <span class="inner-text">25+ Years Of Experience</span>
+              </div>
+              <div class="banner-shape">
+                <span class="hexagon-clippath"></span><span class="hexagon-clippath2"></span>
+              </div>
+            </div>
+          </div><!-- /.col-xl-6 -->
+          <div class="col-sm-12 col-lg-8 col-xl-5 offset-xl-1">
+            <div class="banner-text">
+              <p class="color-white fw-bold">Our responsibility extends far beyond the boardroom. Learn about our corporate social responsibility initiatives, where we actively engage with communities to make a positive impact. From healthcare education to environmental sustainability, we are committed to giving back to the communities we serve.
+              </p>
+             
+            </div>
+            <div class="fancybox-layout2 fancybox-light">
+              <div class="fancybox-item">
+                <div class="fancybox-icon">
+                  <i class="icon-flask"></i>
+                </div><!-- /.fancybox-icon -->
+                <div class="fancybox-body">
+                  <h4 class="fancybox-title">Healthier World Journey</h4>
+                  <p class="fancybox-desc">Embarking on a Path of Excellence for Global Well-being.</p>
+                </div><!-- /.fancybox-body -->
+              </div><!-- /.fancybox-item -->
+              <div class="fancybox-item">
+                <div class="fancybox-icon">
+                  <i class="icon-medicine"></i>
+                </div><!-- /.fancybox-icon -->
+                <div class="fancybox-body">
+                  <h4 class="fancybox-title">Innovation, Quality, Accessibility</h4>
+                  <p class="fancybox-desc">Pioneering Healthcare Transformation with Innovation, Quality, and Accessibility as Cornerstones.</p>
+                </div><!-- /.fancybox-body -->
+              </div><!-- /.fancybox-item -->
+            </div><!-- /.fancybox-layout2 -->
+          </div><!-- /.col-xl-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+     
+    </section><!-- /.Banner Layout 1 -->
+
+
+
+    
+    
+    
+
+    
+   
+
+    {%endblock content%}

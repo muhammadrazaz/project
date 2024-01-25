@@ -1,0 +1,272 @@
+
+{%extends "base.html"%}
+
+{%block content %}
+
+    <!-- ========================= 
+            Google Map
+    =========================  -->
+    <section class="map py-0">
+      <iframe height="620"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11971.627628962768!2d2.1354741829540913!3d41.39782801658141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49876ab903fb7%3A0x2600fae14082f492!2sSant%20Gervasi%20-%20Galvany%2C%20Barcelona%2C%20Spain!5e0!3m2!1sen!2sus!4v1667567027882!5m2!1sen!2sus"></iframe>
+      <div class="map-container">
+        <div class="contact-panel p-0">
+          <div class="panel-header">
+            <h3 class="panel-title color-white mb-0">Offices and Main Labs</h3>
+          </div>
+          <div class="accordion" id="accordion">
+            <div class="accordion-item opened">
+              <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#contact-collapse1">
+                <a class="accordion-title" href="#">London Office</a>
+              </div><!-- /.accordion-item-header -->
+              <div id="contact-collapse1" class="collapse show" data-bs-parent="#accordion">
+                <div class="accordion-body">
+                  <ul class="contact-list list-unstyled mb-0">
+                    <li>Phone: 010612457410</li>
+                    <li>Email: Chemlabs@7oroof.com</li>
+                    <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                    <li>Hours: Mon-Fri: 8am – 7pm</li>
+                  </ul>
+                </div><!-- /.accordion-item-body -->
+              </div>
+            </div><!-- /.accordion-item -->
+            <div class="accordion-item">
+              <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#contact-collapse2">
+                <a class="accordion-title" href="#">Berlin Office</a>
+              </div><!-- /.accordion-item-header -->
+              <div id="contact-collapse2" class="collapse" data-bs-parent="#accordion">
+                <div class="accordion-body">
+                  <ul class="contact-list list-unstyled mb-0">
+                    <li>Phone: 01001314999</li>
+                    <li>Email: Chemlabs@7oroof.com</li>
+                    <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                    <li>Hours: Mon-Fri: 8am – 7pm</li>
+                  </ul>
+                </div><!-- /.accordion-item-body -->
+              </div>
+            </div><!-- /.accordion-item -->
+            <div class="accordion-item">
+              <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#contact-collapse3">
+                <a class="accordion-title" href="#">Manchester Office</a>
+              </div><!-- /.accordion-item-header -->
+              <div id="contact-collapse3" class="collapse" data-bs-parent="#accordion">
+                <div class="accordion-body">
+                  <ul class="contact-list list-unstyled mb-0">
+                    <li>Phone: 010612457410</li>
+                    <li>Email: Chemlabs@7oroof.com</li>
+                    <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                    <li>Hours: Mon-Fri: 8am – 7pm</li>
+                  </ul>
+                </div><!-- /.accordion-item-body -->
+              </div>
+            </div><!-- /.accordion-item -->
+          </div><!-- /.accordion -->
+        </div>
+      </div><!-- /.map-container -->
+      <div class="curve-top-shape d-none d-xl-block">
+        <svg class="curve-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+          <path class="curve-path" d="M1000,4.3V0H0v4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z"></path>
+        </svg>
+      </div><!-- /.curve -->
+    </section><!-- /.GoogleMap -->
+
+    <!-- ==========================
+        contact layout 1
+    =========================== -->
+    <section class="contact-layout1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-7">
+            <div class="heading-layout2 mb-50">
+              <h2 class="heading-subtitle">Contact Us And We Will Respond Within The Next Two Working Days</h2>
+              <h3 class="heading-title">Get In Touch With Your Nearest Local Health Business Sales</h3>
+            </div>
+          </div><!-- /.col-lg-7 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="text-block">
+              <p class="text-block-desc">Our customer care staff will distribute your request for consultation to the
+                appropriate Laboratory Medicine discipline.</p>
+              <p class="text-block-desc">A member of the Medical/Scientific Staff will get back to the requesting
+                healthcare provider within one business day.
+              </p>
+            </div>
+           
+          </div><!-- /.col-lg-4 -->
+          <div class="col-sm-12 col-md-12 col-lg-8">
+            <form class="contact-panel-form" method="post" action="" id="contactForm">
+              <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
+                      required>
+                  </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" id="contact-email" name="contact-email"
+                      required>
+                  </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Phone" id="contact-Phone" name="contact-phone"
+                      required>
+                  </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-12">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Additional Details" id="contact-message"
+                      name="contact-message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block btn-xhight mt-10">
+                    <span>Submit Request</span> <i class="icon-arrow-right"></i>
+                  </button>
+                  <div class="contact-result"></div>
+                </div><!-- /.col-lg-12 -->
+              </div><!-- /.row -->
+            </form>
+          </div><!-- /.col-lg-8 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.contact layout 1 -->
+
+    <!-- ========================
+     Banner Layout 1
+    =========================== -->
+    <section class="banner-layout1 bg-overlay bg-overlay-secondary-gradient bg-parallax pt-130 pb-0">
+      <div class="bg-img"><img src="{{ url_for('static',filename='assets/images/backgrounds/1.jpg') }}" alt="backgrounds"></div>
+      <div class="container pb-30">
+        <div class="row">
+          <div class="col-12 col-xl-6">
+            <div class="heading-layout2 heading-light mb-60">
+
+              <h3 class="heading-title">Connect with IHD Life - Let's Shape Healthcare Together.</h3>
+            </div><!-- /.heading-layout2 -->
+          </div><!-- /.col-xl-6 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-10 col-lg-7 col-lg-6 col-xl-6">
+            <div class="banner-img">
+              <img src="{{ url_for('static',filename='assets/images/banners/1.jpg') }}" alt="banner" class="rounded-4 w-100">
+              <div class="promo-text">
+                <span class="inner-text">25+ Years Of Experience</span>
+              </div>
+              <div class="banner-shape">
+                <span class="hexagon-clippath"></span><span class="hexagon-clippath2"></span>
+              </div>
+            </div>
+          </div><!-- /.col-xl-6 -->
+          <div class="col-sm-12 col-lg-8 col-xl-5 offset-xl-1">
+            <div class="banner-text">
+              <p class="color-white fw-bold">Your inquiries, collaborations, and feedback are invaluable to us. We are ready to listen, engage, and collaborate. Reach out to the IHD Life team today and become a part of our journey to elevate global healthcare standards.
+              </p>
+              
+            </div>
+            <div class="fancybox-layout2 fancybox-light">
+              <div class="fancybox-item">
+                <div class="fancybox-icon">
+                  <i class="icon-flask"></i>
+                </div><!-- /.fancybox-icon -->
+                <div class="fancybox-body">
+                  <h4 class="fancybox-title">General Inquiries</h4>
+                  <p class="fancybox-desc">For general inquiries and information, please contact us at [Email Address]. Our dedicated team is here to provide you with the information you need.
+                  </p>
+                </div><!-- /.fancybox-body -->
+              </div><!-- /.fancybox-item -->
+              <div class="fancybox-item">
+                <div class="fancybox-icon">
+                  <i class="icon-medicine"></i>
+                </div><!-- /.fancybox-icon -->
+                <div class="fancybox-body">
+                  <h4 class="fancybox-title">Partnerships</h4>
+                  <p class="fancybox-desc">If you are interested in exploring collaboration opportunities with IHD Life, please reach out to our partnerships team at [Email Address]. We welcome partnerships that drive positive change in healthcare.
+                  </p>
+                </div><!-- /.fancybox-body -->
+              </div><!-- /.fancybox-item -->
+            </div><!-- /.fancybox-layout2 -->
+          </div><!-- /.col-xl-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+      
+    </section><!-- /.Banner Layout 1 -->
+
+    <!-- ========================
+      About Layout 3
+    =========================== -->
+    <section class="about-layout3 pt-130 pb-130">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5">
+            <p class="fz-16 fw-bold color-secondary mb-30">Connect with IHD Life today, and together, we can create a healthier world where quality healthcare is accessible to all, where innovation thrives, and where healthcare is a source of hope and healing. Shape healthcare with us.
+
+            </p>
+            
+          </div><!-- /.col-lg-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-7 col-xl-6 offset-xl-1">
+            <div class="accordion" id="accordion1">
+              <div class="accordion-item">
+                <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                  <a class="accordion-title" href="#">Visit Us
+                  </a>
+                </div><!-- /.accordion-item-header -->
+                <div id="collapse1" class="collapse" data-bs-parent="#accordion1">
+                  <div class="accordion-body">
+                    <p>If you prefer face-to-face interactions, our headquarters are located at [Address], [City, State, Zip Code]. We welcome visits by appointment. Feel free to schedule a visit and explore our commitment to healthcare excellence.
+                    </p>
+                  </div><!-- /.accordion-item-body -->
+                </div>
+              </div><!-- /.accordion-item -->
+              <div class="accordion-item">
+                <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                  <a class="accordion-title" href="#">Connect with Us on Social Media</a>
+                </div><!-- /.accordion-item-header -->
+                <div id="collapse2" class="collapse" data-bs-parent="#accordion1">
+                  <div class="accordion-body">
+                    <p>Stay updated with the latest news, innovations, and developments at IHD Life by following us on [Social Media Links]. Join our online community, where we share insights, engage with healthcare professionals, and foster discussions on healthcare trends and advancements.
+                    </p>
+                  </div><!-- /.accordion-item-body -->
+                </div>
+              </div><!-- /.accordion-item -->
+              <div class="accordion-item ">
+                <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                  <a class="accordion-title" href="#">Feedback and Suggestions</a>
+                </div><!-- /.accordion-item-header -->
+                <div id="collapse3" class="collapse" data-bs-parent="#accordion1">
+                  <div class="accordion-body">
+                    <p>We value your feedback and suggestions. Your insights help us improve and shape the future of healthcare. Feel free to share your thoughts with us. Whether it's a comment, a suggestion, or a partnership proposal, we are eager to hear from you.
+                    </p>
+                  </div><!-- /.accordion-item-body -->
+                </div>
+              </div><!-- /.accordion-item -->
+              <div class="accordion-item ">
+                <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                  <a class="accordion-title" href="#">Media and Press</a>
+                </div><!-- /.accordion-item-header -->
+                <div id="collapse3" class="collapse" data-bs-parent="#accordion1">
+                  <div class="accordion-body">
+                    <p>Members of the media can contact our media relations team at [Email Address] for inquiries, interviews, and media-related requests. We are committed to transparent and informative communication.
+                    </p>
+                  </div><!-- /.accordion-item-body -->
+                </div>
+              </div><!-- /.accordion-item -->
+              <div class="accordion-item opened">
+                <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                  <a class="accordion-title" href="#">Career Opportunities</a>
+                </div><!-- /.accordion-item-header -->
+                <div id="collapse3" class="collapse show" data-bs-parent="#accordion1">
+                  <div class="accordion-body">
+                    <p>Join us in our mission to transform healthcare. Explore career opportunities at IHD Life by contacting our HR department at [Email Address]. Together, we can shape the future of healthcare.
+
+                    </p>
+                  </div><!-- /.accordion-item-body -->
+                </div>
+              </div><!-- /.accordion-item -->
+            </div><!-- /.accordion -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.About Layout 3 -->
+
+{%endblock content%}
